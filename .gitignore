@@ -1,0 +1,5 @@
+### Sass template
+.sass-cache/
+*.css.map
+
+# Created by .ignore support plugin (hsz.mobi)

@@ -1,0 +1,27 @@
+{
+  "name": "unicon",
+  "version": "1.0.0",
+  "description": "A CSS library for applying Unicode icons easily.",
+  "main": "./css/unicon.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "unicode",
+    "icon",
+    "unicon",
+    "scss",
+    "sass",
+    "mixin"
+  ],
+  "author": "Daniel Dunderfelt",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}
