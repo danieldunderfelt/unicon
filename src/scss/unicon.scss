@@ -1,0 +1,50 @@
+/****************************************************
+*   Default values. Change as desired.
+*****************************************************/
+
+$icon-padding: .4em !default;
+$icon-display: inline;
+
+/****************************************************
+*   Icon names and unicode identifiers.
+*****************************************************/
+
+@import 'icons';
+
+/****************************************************
+*   Mixin and classes definitions
+*****************************************************/
+
+@mixin icon($name, $position: after) {
+	$icon-char: "";
+
+	@each $icon in $icons {
+		@if nth($icon, 1) == $name {
+			$icon-char: nth($icon, 2);
+		}
+	}
+
+	$padding-position: "left";
+
+	@if($position == before) {
+		$padding-position: "right";
+	}
+
+	&:#{$position} {
+		content: $icon-char;
+		display: $icon-display;
+		padding-#{$padding-position}: $icon-padding;
+		@content;
+	}
+}
+
+@each $icon in $icons {
+
+	.unicon-#{nth($icon, 1)} {
+		@include icon(nth($icon, 1));
+	}
+
+	.unicon-#{nth($icon, 1)}-before {
+		@include icon(nth($icon, 1), before);
+	}
+}

@@ -1,0 +1,1531 @@
+@charset "UTF-8";
+/****************************************************
+*   Default values. Change as desired.
+*****************************************************/
+/****************************************************
+*   Icon names and unicode identifiers.
+*****************************************************/
+/****************************************************
+*   Mixin and classes definitions
+*****************************************************/
+.unicon-arrow-forward:after {
+  content: "›";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-arrow-forward-before:before {
+  content: "›";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-checkmark:after {
+  content: "✔";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-checkmark-before:before {
+  content: "✔";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-left-chevron:after {
+  content: "❰";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-left-chevron-before:before {
+  content: "❰";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-degree:after {
+  content: "°";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-degree-before:before {
+  content: "°";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-middot:after {
+  content: "·";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-middot-before:before {
+  content: "·";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-bullet:after {
+  content: "•";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-bullet-before:before {
+  content: "•";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-small-angle-left:after {
+  content: "‹";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-small-angle-left-before:before {
+  content: "‹";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-small-angle-right:after {
+  content: "›";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-small-angle-right-before:before {
+  content: "›";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-small-angle-up:after {
+  content: "ˆ";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-small-angle-up-before:before {
+  content: "ˆ";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-small-angle-down:after {
+  content: "ˇ";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-small-angle-down-before:before {
+  content: "ˇ";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-small-triangle-down:after {
+  content: "ˑ";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-small-triangle-down-before:before {
+  content: "ˑ";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-triangles-up-down:after {
+  content: "ː";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-triangles-up-down-before:before {
+  content: "ː";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-cross1:after {
+  content: "˟";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-cross1-before:before {
+  content: "˟";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-cross2:after {
+  content: "྾";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-cross2-before:before {
+  content: "྾";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-cross3:after {
+  content: "✕";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-cross3-before:before {
+  content: "✕";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-cross:after {
+  content: "╳";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-cross-before:before {
+  content: "╳";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-heavy-cross:after {
+  content: "✖";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-heavy-cross-before:before {
+  content: "✖";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-handwritten-cross:after {
+  content: "✘";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-handwritten-cross-before:before {
+  content: "✘";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-shelf:after {
+  content: "˽";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-shelf-before:before {
+  content: "˽";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-short-arrow-left:after {
+  content: "˿";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-short-arrow-left-before:before {
+  content: "˿";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-triangle-right:after {
+  content: "▷";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-triangle-right-before:before {
+  content: "▷";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-sun:after {
+  content: "☀";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-sun-before:before {
+  content: "☀";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-sun:after {
+  content: "☼";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-sun-before:before {
+  content: "☼";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-moon:after {
+  content: "☾";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-moon-before:before {
+  content: "☾";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-cloud:after {
+  content: "☁";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-cloud-before:before {
+  content: "☁";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-umbrella:after {
+  content: "☂";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-umbrella-before:before {
+  content: "☂";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-snowman:after {
+  content: "☃";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-snowman-before:before {
+  content: "☃";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-comet:after {
+  content: "☄";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-comet-before:before {
+  content: "☄";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-female:after {
+  content: "♀";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-female-before:before {
+  content: "♀";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-male:after {
+  content: "♂";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-male-before:before {
+  content: "♂";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-music:after {
+  content: "♫";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-music-before:before {
+  content: "♫";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-recycling:after {
+  content: "♻";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-recycling-before:before {
+  content: "♻";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-flag:after {
+  content: "⚐";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-flag-before:before {
+  content: "⚐";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-filled-flag:after {
+  content: "⚑";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-filled-flag-before:before {
+  content: "⚑";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circle-dot-right:after {
+  content: "⚆";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circle-dot-right-before:before {
+  content: "⚆";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-filled-circle-dot-right:after {
+  content: "⚈";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-filled-circle-dot-right-before:before {
+  content: "⚈";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circle-dot-double:after {
+  content: "⚇";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circle-dot-double-before:before {
+  content: "⚇";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-filled-circle-dot-double:after {
+  content: "⚉";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-filled-circle-dot-double-before:before {
+  content: "⚉";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-atom:after {
+  content: "⚛";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-atom-before:before {
+  content: "⚛";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-warning:after {
+  content: "⚠";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-warning-before:before {
+  content: "⚠";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-baseball:after {
+  content: "⚾";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-baseball-before:before {
+  content: "⚾";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-ornament-quote-down:after {
+  content: "❝";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-ornament-quote-down-before:before {
+  content: "❝";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-ornament-quote-up:after {
+  content: "❞";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-ornament-quote-up-before:before {
+  content: "❞";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-arrow-left-right:after {
+  content: "↔";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-arrow-left-right-before:before {
+  content: "↔";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-arrow-up-down:after {
+  content: "↕";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-arrow-up-down-before:before {
+  content: "↕";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-search:after {
+  content: "֠";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-search-before:before {
+  content: "֠";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-infinity:after {
+  content: "∞";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-infinity-before:before {
+  content: "∞";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-infinity-vertical:after {
+  content: "ଃ";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-infinity-vertical-before:before {
+  content: "ଃ";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circle:after {
+  content: "೦";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circle-before:before {
+  content: "೦";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-triangle-right:after {
+  content: "ᐅ";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-triangle-right-before:before {
+  content: "ᐅ";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-triangle-left:after {
+  content: "ᐊ";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-triangle-left-before:before {
+  content: "ᐊ";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-angle-left:after {
+  content: "ᐸ";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-angle-left-before:before {
+  content: "ᐸ";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-angle-right:after {
+  content: "ᐳ";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-angle-right-before:before {
+  content: "ᐳ";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-dot-on-line:after {
+  content: "ᚽ";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-dot-on-line-before:before {
+  content: "ᚽ";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-wide-angle-up:after {
+  content: "᷍";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-wide-angle-up-before:before {
+  content: "᷍";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-wide-angle-left:after {
+  content: "〈";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-wide-angle-left-before:before {
+  content: "〈";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-wide-angle-right:after {
+  content: "〉";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-wide-angle-right-before:before {
+  content: "〉";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-filled-triangle-right:after {
+  content: "‣";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-filled-triangle-right-before:before {
+  content: "‣";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-ellipsis:after {
+  content: "…";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-ellipsis-before:before {
+  content: "…";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-ellipsis-vertical:after {
+  content: "⁝";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-ellipsis-vertical-before:before {
+  content: "⁝";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-arched-arrow-left:after {
+  content: "⃔";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-arched-arrow-left-before:before {
+  content: "⃔";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-arched-arrow-right:after {
+  content: "⃕";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-arched-arrow-right-before:before {
+  content: "⃕";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-wavy-arrow-left:after {
+  content: "↜";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-wavy-arrow-left-before:before {
+  content: "↜";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-wavy-arrow-right:after {
+  content: "↝";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-wavy-arrow-right-before:before {
+  content: "↝";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-forbidden:after {
+  content: "⃠";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-forbidden-before:before {
+  content: "⃠";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-arrow-left:after {
+  content: "←";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-arrow-left-before:before {
+  content: "←";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-arrow-up:after {
+  content: "↑";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-arrow-up-before:before {
+  content: "↑";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-arrow-right:after {
+  content: "→";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-arrow-right-before:before {
+  content: "→";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-arrow-down:after {
+  content: "↓";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-arrow-down-before:before {
+  content: "↓";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-arrow-up-down:after {
+  content: "⇅";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-arrow-up-down-before:before {
+  content: "⇅";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-arrow-left-right:after {
+  content: "⇆";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-arrow-left-right-before:before {
+  content: "⇆";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-trademark:after {
+  content: "™";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-trademark-before:before {
+  content: "™";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-copyright:after {
+  content: "©";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-copyright-before:before {
+  content: "©";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-registered:after {
+  content: "®";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-registered-before:before {
+  content: "®";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-info:after {
+  content: "ℹ";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-info-before:before {
+  content: "ℹ";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-top-left-arrow:after {
+  content: "↖";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-top-left-arrow-before:before {
+  content: "↖";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-top-right-arrow:after {
+  content: "↗";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-top-right-arrow-before:before {
+  content: "↗";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-bottom-right-arrow:after {
+  content: "↘";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-bottom-right-arrow-before:before {
+  content: "↘";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-bottom-left-arrow:after {
+  content: "↙";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-bottom-left-arrow-before:before {
+  content: "↙";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-u-arrow-left:after {
+  content: "↩";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-u-arrow-left-before:before {
+  content: "↩";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-u-arrow-right:after {
+  content: "↪";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-u-arrow-right-before:before {
+  content: "↪";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circular-arrow-anticlockwise:after {
+  content: "↺";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circular-arrow-anticlockwise-before:before {
+  content: "↺";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circular-arrow-clockwise:after {
+  content: "↻";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circular-arrow-clockwise-before:before {
+  content: "↻";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-angle-arrow-left:after {
+  content: "↰";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-angle-arrow-left-before:before {
+  content: "↰";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-angle-arrow-right:after {
+  content: "↱";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-angle-arrow-right-before:before {
+  content: "↱";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-double-arrow-left:after {
+  content: "⇐";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-double-arrow-left-before:before {
+  content: "⇐";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-double-arrow-up:after {
+  content: "⇑";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-double-arrow-up-before:before {
+  content: "⇑";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-double-arrow-right:after {
+  content: "⇒";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-double-arrow-right-before:before {
+  content: "⇒";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-double-arrow-down:after {
+  content: "⇓";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-double-arrow-down-before:before {
+  content: "⇓";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-double-arrow-left-right:after {
+  content: "⇔";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-double-arrow-left-right-before:before {
+  content: "⇔";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-double-arrow-up-down:after {
+  content: "⇕";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-double-arrow-up-down-before:before {
+  content: "⇕";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-double-arrow-top-left:after {
+  content: "⇖";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-double-arrow-top-left-before:before {
+  content: "⇖";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-double-arrow-top-right:after {
+  content: "⇗";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-double-arrow-top-right-before:before {
+  content: "⇗";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-double-arrow-bottom-right:after {
+  content: "⇘";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-double-arrow-bottom-right-before:before {
+  content: "⇘";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-double-arrow-bottom-left:after {
+  content: "⇙";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-double-arrow-bottom-left-before:before {
+  content: "⇙";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-arrow-left:after {
+  content: "⇦";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-arrow-left-before:before {
+  content: "⇦";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-arrow-up:after {
+  content: "⇧";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-arrow-up-before:before {
+  content: "⇧";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-arrow-right:after {
+  content: "⇨";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-arrow-right-before:before {
+  content: "⇨";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-arrow-down:after {
+  content: "⇩";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-arrow-down-before:before {
+  content: "⇩";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-arrow-up-down:after {
+  content: "⇩";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-arrow-up-down-before:before {
+  content: "⇩";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-split-arrow-up:after {
+  content: "⇪";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-split-arrow-up-before:before {
+  content: "⇪";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-split-double-arrow-up:after {
+  content: "⇮";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-split-double-arrow-up-before:before {
+  content: "⇮";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-arrow-top-left-corner:after {
+  content: "⇱";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-arrow-top-left-corner-before:before {
+  content: "⇱";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-arrow-bottom-right-corner:after {
+  content: "⇲";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-arrow-bottom-right-corner-before:before {
+  content: "⇲";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-white-arrow-left:after {
+  content: "⇽";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-white-arrow-left-before:before {
+  content: "⇽";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-thin-white-arrow-right:after {
+  content: "⇾";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-thin-white-arrow-right-before:before {
+  content: "⇾";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-asterisk:after {
+  content: "∗";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-asterisk-before:before {
+  content: "∗";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-bacon:after {
+  content: "≈";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-bacon-before:before {
+  content: "≈";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-hamburger:after {
+  content: "≡";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-hamburger-before:before {
+  content: "≡";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-quadruple-hamdurger:after {
+  content: "≣";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-quadruple-hamdurger-before:before {
+  content: "≣";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-crosshairs:after {
+  content: "⊹";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-crosshairs-before:before {
+  content: "⊹";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-filled-star:after {
+  content: "★";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-filled-star-before:before {
+  content: "★";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-star:after {
+  content: "☆";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-star-before:before {
+  content: "☆";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-osx-cmd:after {
+  content: "⌘";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-osx-cmd-before:before {
+  content: "⌘";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-delete-right:after {
+  content: "⌦";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-delete-right-before:before {
+  content: "⌦";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-delete-left:after {
+  content: "⌫";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-delete-left-before:before {
+  content: "⌫";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-print:after {
+  content: "⎙";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-print-before:before {
+  content: "⎙";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-eject:after {
+  content: "⏏";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-eject-before:before {
+  content: "⏏";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-telephone:after {
+  content: "☎";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-telephone-before:before {
+  content: "☎";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-telephone:after {
+  content: "☏";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-telephone-before:before {
+  content: "☏";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-square:after {
+  content: "☐";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-square-before:before {
+  content: "☐";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-checked-square:after {
+  content: "☑";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-checked-square-before:before {
+  content: "☑";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-scissors:after {
+  content: "✁";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-scissors-before:before {
+  content: "✁";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circle-telephone:after {
+  content: "✆";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circle-telephone-before:before {
+  content: "✆";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-airplane:after {
+  content: "✈";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-airplane-before:before {
+  content: "✈";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-mail:after {
+  content: "✉";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-mail-before:before {
+  content: "✉";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-heart:after {
+  content: "❤";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-heart-before:before {
+  content: "❤";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circled-plus:after {
+  content: "⊕";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circled-plus-before:before {
+  content: "⊕";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circled-minus:after {
+  content: "⊖";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circled-minus-before:before {
+  content: "⊖";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circled-cross:after {
+  content: "⊗";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circled-cross-before:before {
+  content: "⊗";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circled-slash:after {
+  content: "⊘";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circled-slash-before:before {
+  content: "⊘";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-circled-equals:after {
+  content: "⊜";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-circled-equals-before:before {
+  content: "⊜";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-narrow-triangle-left:after {
+  content: "⊲";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-narrow-triangle-left-before:before {
+  content: "⊲";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-narrow-triangle-right:after {
+  content: "⊳";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-narrow-triangle-right-before:before {
+  content: "⊳";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-hand-left:after {
+  content: "☚";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-hand-left-before:before {
+  content: "☚";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-hand-right:after {
+  content: "☛";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-hand-right-before:before {
+  content: "☛";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-hand-left:after {
+  content: "☜";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-hand-left-before:before {
+  content: "☜";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-hand-right:after {
+  content: "☞";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-hand-right-before:before {
+  content: "☞";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-white-hand-down:after {
+  content: "☟";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-white-hand-down-before:before {
+  content: "☟";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-writing-hand:after {
+  content: "✍";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-writing-hand-before:before {
+  content: "✍";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-pen:after {
+  content: "✎";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-pen-before:before {
+  content: "✎";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-check:after {
+  content: "✓";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-check-before:before {
+  content: "✓";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-check-heavy:after {
+  content: "✔";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-check-heavy-before:before {
+  content: "✔";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-skull-bones:after {
+  content: "☠";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-skull-bones-before:before {
+  content: "☠";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-radiation:after {
+  content: "☢";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-radiation-before:before {
+  content: "☢";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-biohazard:after {
+  content: "☣";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-biohazard-before:before {
+  content: "☣";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-aesculapius-staff:after {
+  content: "⚕";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-aesculapius-staff-before:before {
+  content: "⚕";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-peace:after {
+  content: "☮";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-peace-before:before {
+  content: "☮";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-yin-yang:after {
+  content: "☯";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-yin-yang-before:before {
+  content: "☯";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-sad-face:after {
+  content: "☹";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-sad-face-before:before {
+  content: "☹";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-smiling-face:after {
+  content: "☺";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-smiling-face-before:before {
+  content: "☺";
+  display: inline;
+  padding-right: 0.4em; }
+
+.unicon-filled-smiling-face:after {
+  content: "☻";
+  display: inline;
+  padding-left: 0.4em; }
+
+.unicon-filled-smiling-face-before:before {
+  content: "☻";
+  display: inline;
+  padding-right: 0.4em; }
+
+/*# sourceMappingURL=unicon.css.map */

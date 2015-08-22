@@ -1,0 +1,14 @@
+.icons-list {
+  padding: 2em; }
+
+.icon {
+  width: 8.5em;
+  text-align: center;
+  display: inline-block;
+  padding: 1.5em 1.5em 3em 1.5em; }
+  .icon:before {
+    display: block;
+    font-size: 2em;
+    margin-bottom: .5em; }
+
+/*# sourceMappingURL=dev.css.map */
