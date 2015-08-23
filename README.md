@@ -28,6 +28,10 @@ npm install unicon
 You can use Unicon with a mixin, normal CSS classes or attributes.
 
 ### Mixin
+The mixin is the primary way to use this library. Please only use the `unicon.css` file if your project is not using Sass. A port for Less and other CSS preprocessors is forthcoming.
+
+Also, there's a variable called `$ 
+
 To use the mixin, `@import` the `unicon.scss` file into your project. The `unicon` mixin will then be available and can be used like so:
 
 ```
@@ -62,9 +66,21 @@ Example:
 
 ## Customisation
 
-There are a few style rules added to the pseudo element: padding and display. The icon uses `display: inline` and `padding-left: .4em` (or `padding-right`, depending on the pseudo element) by default. You can overwrite these with the variables `$icon-display` and `$icon-padding` respectively.
+If you only use this library through Sass, please set the `$unicon-enable-classes` variable to `false`. This will prevent unnecessary CSS in your output.
 
-You can also set the font the icons use globally. Overwrite the `$icon-font` variable to accomplish this. By default Unicon uses Georgia, as it displays all icons nicely. Many fonts do include all glyphs, but they might display them differently. You'll have the best luck with system fonts.
+There are a few style rules added to the pseudo element: padding and display and font-family. The icon uses `display: inline` and `padding-left: .4em` (or `padding-right`, depending on the pseudo element) by default. You can overwrite these with the variables `$unicon-display` and `$unicon-padding` respectively.
+
+You can also set the font the icons use globally. Overwrite the `$unicon-font` variable to accomplish this. By default Unicon uses Georgia, as it displays all icons nicely. Many fonts do include all glyphs, but they might display them differently. You'll have the best luck with system fonts.
+
+All variables use the Sass `!default` switch. As such, you should overwrite them *before* `@import`ing the `unicon.scss` file.
+
+```
+$unicon-padding: .5em;
+$unicon-display: inline-block;
+$unicon-enable-classes: false;
+
+@import 'unicon';
+```
 
 ## Extension
 

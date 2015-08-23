@@ -32,7 +32,7 @@ gulp.task('jade', function() {
 gulp.task('sass', function() {
 	return gulp.src('./src/scss/**/*.scss')
         .pipe(sourcemaps.init())
-            .pipe(sass().on('error', sass.logError))
+            .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
             .pipe(autoprefixer())
         .pipe(sourcemaps.write('.'))
 		.pipe(gulp.dest('./css'))

@@ -2,9 +2,10 @@
 *   Default values. Change as desired.
 *****************************************************/
 
-$icon-padding: .4em !default;
-$icon-display: inline !default;
-$icon-font: 'Georgia', serif !default;
+$unicon-padding: .4em !default;
+$unicon-display: inline !default;
+$unicon-font: 'Georgia', serif !default;
+$unicon-enable-classes: true;
 
 /****************************************************
 *   Icon names and unicode identifiers.
@@ -16,45 +17,6 @@ $icon-font: 'Georgia', serif !default;
 *   Mixin and classes definitions
 *****************************************************/
 
-@mixin unicon($name, $position: after) {
-	@if map-has-key($unicon-icons, $name) {
-		$icon-char: map-get($unicon-icons, $name);
-
-		$padding-position: "left";
-
-		@if($position == before) {
-			$padding-position: "right";
-		}
-
-		&:#{$position} {
-			content: $icon-char;
-			display: $icon-display;
-			font-family: $icon-font;
-			padding-#{$padding-position}: $icon-padding;
-			@content;
-		}
-	}
-	@else {
-		@debug("Chosen icon not found.");
-	}
-}
-
-@each $icon in $unicon-icons {
-
-	.unicon-#{nth($icon, 1)},
-	[data-unicon-after="#{nth($icon, 1)}"] {
-		@include unicon(nth($icon, 1));
-	}
-
-	.unicon-#{nth($icon, 1)}-before, [data-unicon-before="#{nth($icon, 1)}"] {
-		@include unicon(nth($icon, 1), before);
-	}
-}
-
-/****************************************************
-*   Function
-*****************************************************/
-
 @function unicon-insert($name) {
 	@if map-has-key($unicon-icons, $name) {
 		@return map-get($unicon-icons, $name);
@@ -64,4 +26,57 @@ $icon-font: 'Georgia', serif !default;
 	}
 
 	@return "";
+}
+
+%unicon-icon-class {
+
+	&:before, &:after {
+		display: $unicon-display;
+		font-family: $unicon-font;
+		padding-left: $unicon-padding;
+	}
+
+	&:before {
+		padding-right: $unicon-padding;
+	}
+}
+
+@mixin unicon($name, $position: after) {
+	@if map-has-key($unicon-icons, $name) {
+		$icon-char: map-get($unicon-icons, $name);
+
+		@extend %unicon-icon-class;
+
+		&:#{$position} {
+			content: $icon-char;
+			@content;
+		}
+	}
+	@else {
+		@debug("Chosen icon not found.");
+	}
+}
+
+@if $unicon-enable-classes {
+	@each $icon in $unicon-icons {
+
+		.unicon-#{nth($icon, 1)},
+		[data-unicon-after="#{nth($icon, 1)}"] {
+
+			&:after {
+				content: unicon-insert(nth($icon, 1));
+			}
+		}
+
+		.unicon-#{nth($icon, 1)}-before, [data-unicon-before="#{nth($icon, 1)}"] {
+
+			&:before {
+				content: unicon-insert(nth($icon, 1));
+			}
+		}
+	}
+
+	[class^='unicon'], [class*=' unicon'] {
+		@extend %unicon-icon-class;
+	}
 }

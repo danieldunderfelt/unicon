@@ -12,7 +12,7 @@ html(lang='en')
             each char, name in icons
                 span(class='unicon-' + name + '-before').icon!= name
 
-            span.icon.icon-extended Extended
-            span.icon.icon-inserted Inserted
-            span(data-unicon-after="circular-arrow-anticlockwise").icon.icon-data Inserted
-            span(data-unicon-before="circular-arrow-clockwise").icon.icon-data-before Inserted
+            span.icon.unicon-icon.icon-extended Extended (demo, library contains no emoji)
+            span.icon.unicon-icon.icon-inserted Inserted
+            span(data-unicon-after="circular-arrow-anticlockwise").icon.unicon-icon.icon-data Inserted after
+            span(data-unicon-before="circular-arrow-clockwise").icon.unicon-icon.icon-data-before Inserted before
