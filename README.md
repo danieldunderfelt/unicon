@@ -120,210 +120,210 @@ Please refer to the index.html file in the repository for a better preview of th
 
 ### Arrows
 
-- `u-arrow-left`: &#x21A9;,
-- `u-arrow-right`: &#x21AA;,
+- `u-arrow-left`: &#x21A9;
+- `u-arrow-right`: &#x21AA;
 
-- `circular-arrow-anticlockwise`: &#x21BA;,
-- `circular-arrow-clockwise`: &#x21BB;,
-- `closed-circular-arrow-anticlockwise`: &#x27F2;,
-- `closed-circular-arrow-clockwise`: &#x27F3;,
+- `circular-arrow-anticlockwise`: &#x21BA;
+- `circular-arrow-clockwise`: &#x21BB;
+- `closed-circular-arrow-anticlockwise`: &#x27F2;
+- `closed-circular-arrow-clockwise`: &#x27F3;
 
-- `angle-arrow-left`: &#x21B0;,
-- `angle-arrow-right`: &#x21B1;,
+- `angle-arrow-left`: &#x21B0;
+- `angle-arrow-right`: &#x21B1;
 
-- `double-arrow-left`: &#x21D0;,
-- `double-arrow-up`: &#x21D1;,
-- `double-arrow-right`: &#x21D2;,
-- `double-arrow-down`: &#x21D3;,
-- `double-arrow-left-right`: &#x21D4;,
-- `double-arrow-up-down`: &#x21D5;,
-- `double-arrow-top-left`: &#x21D6;,
-- `double-arrow-top-right`: &#x21D7;,
-- `double-arrow-bottom-right`: &#x21D8;,
-- `double-arrow-bottom-left`: &#x21D9;,
+- `double-arrow-left`: &#x21D0;
+- `double-arrow-up`: &#x21D1;
+- `double-arrow-right`: &#x21D2;
+- `double-arrow-down`: &#x21D3;
+- `double-arrow-left-right`: &#x21D4;
+- `double-arrow-up-down`: &#x21D5;
+- `double-arrow-top-left`: &#x21D6;
+- `double-arrow-top-right`: &#x21D7;
+- `double-arrow-bottom-right`: &#x21D8;
+- `double-arrow-bottom-left`: &#x21D9;
 
-- `outline-arrow-left`: &#x21E6;,
-- `outline-arrow-up`: &#x21E7;,
-- `outline-arrow-right`: &#x21E8;,
-- `outline-arrow-down`: &#x21E9;,
-- `outline-split-arrow-up`: &#x21EA;,
-- `outline-split-double-arrow-up`: &#x21EE;,
+- `outline-arrow-left`: &#x21E6;
+- `outline-arrow-up`: &#x21E7;
+- `outline-arrow-right`: &#x21E8;
+- `outline-arrow-down`: &#x21E9;
+- `outline-split-arrow-up`: &#x21EA;
+- `outline-split-double-arrow-up`: &#x21EE;
 
-- `thin-arrow-top-left-corner`: &#x21F1;,
-- `thin-arrow-bottom-right-corner`: &#x21F2;,
+- `thin-arrow-top-left-corner`: &#x21F1;
+- `thin-arrow-bottom-right-corner`: &#x21F2;
 
-- `thin-outline-arrow-left`: &#x21FD;,
-- `thin-outline-arrow-right`: &#x21FE;,
+- `thin-outline-arrow-left`: &#x21FD;
+- `thin-outline-arrow-right`: &#x21FE;
 
-- `short-fat-arrow-right`: &#x27A7;,
+- `short-fat-arrow-right`: &#x27A7;
 
-- `short-arrow-left`: &#xFFE9;,
-- `short-arrow-top`: &#xFFEA;,
-- `short-arrow-right`: &#xFFEB;,
-- `short-arrow-bottom`: &#xFFEC;,
+- `short-arrow-left`: &#xFFE9;
+- `short-arrow-top`: &#xFFEA;
+- `short-arrow-right`: &#xFFEB;
+- `short-arrow-bottom`: &#xFFEC;
 
-- `arrowhead-right`: &#x27A4;,
+- `arrowhead-right`: &#x27A4;
 
-- `arrow-left-right`: &#x2194;,
-- `arrow-up-down`: &#x2195;,
+- `arrow-left-right`: &#x2194;
+- `arrow-up-down`: &#x2195;
 
-- `arched-arrow-left`: &#x20D4;,
-- `arched-arrow-right`: &#x20D5;,
-- `wavy-arrow-left`: &#x219C;,
-- `wavy-arrow-right`: &#x219D;,
+- `arched-arrow-left`: &#x20D4;
+- `arched-arrow-right`: &#x20D5;
+- `wavy-arrow-left`: &#x219C;
+- `wavy-arrow-right`: &#x219D;
 
-- `thin-arrow-left`: &#x2190;,
-- `thin-arrow-up`: &#x2191;,
-- `thin-arrow-right`: &#x2192;,
-- `thin-arrow-down`: &#x2193;,
-- `thin-arrow-up-down`: &#x21C5;,
-- `thin-arrow-left-right`: &#x21C6;,
-- `thin-arrow-top-left`: &#x2196;,
-- `thin-arrow-top-right`: &#x2197;,
-- `thin-arrow-bottom-right`: &#x2198;,
-- `thin-arrow-bottom-left`: &#x2199;,
+- `thin-arrow-left`: &#x2190;
+- `thin-arrow-up`: &#x2191;
+- `thin-arrow-right`: &#x2192;
+- `thin-arrow-down`: &#x2193;
+- `thin-arrow-up-down`: &#x21C5;
+- `thin-arrow-left-right`: &#x21C6;
+- `thin-arrow-top-left`: &#x2196;
+- `thin-arrow-top-right`: &#x2197;
+- `thin-arrow-bottom-right`: &#x2198;
+- `thin-arrow-bottom-left`: &#x2199;
 
 ### Angles
 
-- `chevron-left`: &#x276C;,
-- `chevron-right`: &#x276D;,
-- `heavy-chevron-left`: &#x2770;,
-- `heavy-chevron-right`: &#x2771;,
+- `chevron-left`: &#x276C;
+- `chevron-right`: &#x276D;
+- `heavy-chevron-left`: &#x2770;
+- `heavy-chevron-right`: &#x2771;
 
-- `small-angle-left`: &#x2039;,
-- `small-angle-right`: &#x203A;,
-- `small-angle-up`: &#x02C6;,
-- `small-angle-down`: &#x02C7;,
+- `small-angle-left`: &#x2039;
+- `small-angle-right`: &#x203A;
+- `small-angle-up`: &#x02C6;
+- `small-angle-down`: &#x02C7;
 
-- `angle-left`: &#x1438;,
-- `angle-right`: &#x1433;,
+- `angle-left`: &#x1438;
+- `angle-right`: &#x1433;
 
-- `wide-angle-up`: &#xFE3F;,
-- `wide-angle-down`: &#xFE40;,
-- `wide-angle-left`: &#x2329;,
-- `wide-angle-right`: &#x232A;,
+- `wide-angle-up`: &#xFE3F;
+- `wide-angle-down`: &#xFE40;
+- `wide-angle-left`: &#x2329;
+- `wide-angle-right`: &#x232A;
 
 ### Triangles
 
-- `triangles-up-down`: &#x02D0;,
+- `triangles-up-down`: &#x02D0;
 
-- `triangle-left`: &#x25C4;,
-- `triangle-up`: &#x25B2;,
-- `triangle-right`: &#x25BA;,
-- `triangle-down`: &#x25BC;,
+- `triangle-left`: &#x25C4;
+- `triangle-up`: &#x25B2;
+- `triangle-right`: &#x25BA;
+- `triangle-down`: &#x25BC;
 
-- `outline-triangle-left`: &#x25C1;,
-- `outline-triangle-up`: &#x25B3;,
-- `outline-triangle-right`: &#x25B7;,
-- `outline-triangle-down`: &#x25BD;,
+- `outline-triangle-left`: &#x25C1;
+- `outline-triangle-up`: &#x25B3;
+- `outline-triangle-right`: &#x25B7;
+- `outline-triangle-down`: &#x25BD;
 
-- `small-triangle-left`: &#x25C2;,
-- `small-triangle-up`: &#x25B4;,
-- `small-triangle-right`: &#x25B8;,
-- `small-triangle-down`: &#x25BE;,
+- `small-triangle-left`: &#x25C2;
+- `small-triangle-up`: &#x25B4;
+- `small-triangle-right`: &#x25B8;
+- `small-triangle-down`: &#x25BE;
 
-- `outline-small-triangle-left`: &#x25C3;,
-- `outline-small-triangle-up`: &#x25B5;,
-- `outline-small-triangle-right`: &#x25B9;,
-- `outline-small-triangle-down`: &#x25BF;,
+- `outline-small-triangle-left`: &#x25C3;
+- `outline-small-triangle-up`: &#x25B5;
+- `outline-small-triangle-right`: &#x25B9;
+- `outline-small-triangle-down`: &#x25BF;
 
-- `outline-narrow-triangle-left`: &#x22B2;,
-- `outline-narrow-triangle-right`: &#x22B3;,
+- `outline-narrow-triangle-left`: &#x22B2;
+- `outline-narrow-triangle-right`: &#x22B3;
 
 ### Crosses and checks
 
-- `small-cross`: &#x02DF;,
-- `cross`: &#x2715;,
-- `thin-cross`: &#x2573;,
-- `heavy-cross`: &#x2716;,
-- `handwritten-cross`: &#x2718;,
+- `small-cross`: &#x02DF;
+- `cross`: &#x2715;
+- `thin-cross`: &#x2573;
+- `heavy-cross`: &#x2716;
+- `handwritten-cross`: &#x2718;
 
-- `checkmark`: &#x2714;,
-- `check`: &#x2713;,
-- `check-heavy`: &#x2714;,
-- `square`: &#x2610;,
-- `checked-square`: &#x2611;,
+- `checkmark`: &#x2714;
+- `check`: &#x2713;
+- `check-heavy`: &#x2714;
+- `square`: &#x2610;
+- `checked-square`: &#x2611;
 
 ### Weather
 
-- `sun`: &#x2600;,
-- `outline-sun`: &#x263C;,
-- `outline-moon`: &#x263E;,
-- `cloud`: &#x2601;,
-- `umbrella`: &#x2602;,
-- `snowman`: &#x2603;,
-- `comet`: &#x2604;,
+- `sun`: &#x2600;
+- `outline-sun`: &#x263C;
+- `outline-moon`: &#x263E;
+- `cloud`: &#x2601;
+- `umbrella`: &#x2602;
+- `snowman`: &#x2603;
+- `comet`: &#x2604;
 
 ### Misc
 
-- `degree`: &#x00B0;,
-- `middot`: &#x00B7;,
-- `bullet`: &#x2022;,
-- `shelf`: &#x02FD;,
-- `female`: &#x2640;,
-- `male`: &#x2642;,
-- `music`: &#x266B;,
-- `recycling`: &#x267B;,
-- `outline-flag`: &#x2690;,
-- `flag`: &#x2691;,
-- `outline-circle-dot-right`: &#x2686;,
-- `circle-dot-right`: &#x2688;,
-- `outline-circle-dot-double`: &#x2687;,
-- `circle-dot-double`: &#x2689;,
-- `atom`: &#x269B;,
-- `warning`: &#x26A0;,
-- `baseball`: &#x26BE;,
-- `ornament-quote-down`: &#x275D;,
-- `ornament-quote-up`: &#x275E;,
-- `search`: &#x05A0;,
-- `infinity`: &#x221E;,
-- `infinity-vertical`: &#x0B03;,
-- `circle`: &#x0CE6;,
-- `dot-on-line`: &#x16BD;,
-- `ellipsis`: &#x2026;,
-- `ellipsis-vertical`: &#x205D;,
-- `forbidden`: &#x20E0;,
-- `trademark`: &#x2122;,
-- `copyright`: &#x00A9;,
-- `registered`: &#x00AE;,
-- `info`: &#x2139;,
-- `asterisk`: &#x2217;,
-- `bacon`: &#x2248;,
-- `hamburger`: &#x2261;,
-- `quadruple-hamdurger`: &#x2263;,
-- `crosshairs`: &#x22B9;,
-- `star`: &#x2605;,
-- `outline-star`: &#x2606;,
-- `osx-cmd`: &#x2318;,
-- `delete-right`: &#x2326;,
-- `delete-left`: &#x232B;,
-- `print`: &#x2399;,
-- `eject`: &#x23CF;,
-- `telephone`: &#x260E;,
-- `outline-telephone`: &#x260F;,
-- `scissors`: &#x2701;,
-- `circle-telephone`: &#x2706;,
-- `airplane`: &#x2708;,
-- `mail`: &#x2709;,
-- `heart`: &#x2764;,
-- `circled-plus`: &#x2295;,
-- `circled-minus`: &#x2296;,
-- `circled-cross`: &#x2297;,
-- `circled-slash`: &#x2298;,
-- `circled-equals`: &#x229C;,
-- `hand-left`: &#x261A;,
-- `hand-right`: &#x261B;,
-- `outline-hand-left`: &#x261C;,
-- `outline-hand-right`: &#x261E;,
-- `outline-hand-down`: &#x261F;,
-- `writing-hand`: &#x270D;,
-- `pen`: &#x270E;,
-- `skull-bones`: &#x2620;,
-- `radiation`: &#x2622;,
-- `biohazard`: &#x2623;,
-- `aesculapius-staff`: &#x2695;,
-- `peace`: &#x262E;,
-- `yin-yang`: &#x262F;,
-- `sad-face`: &#x2639;,
-- `outline-smiling-face`: &#x263A;,
-- `smiling-face`: &#x263B;,
+- `degree`: &#x00B0;
+- `middot`: &#x00B7;
+- `bullet`: &#x2022;
+- `shelf`: &#x02FD;
+- `female`: &#x2640;
+- `male`: &#x2642;
+- `music`: &#x266B;
+- `recycling`: &#x267B;
+- `outline-flag`: &#x2690;
+- `flag`: &#x2691;
+- `outline-circle-dot-right`: &#x2686;
+- `circle-dot-right`: &#x2688;
+- `outline-circle-dot-double`: &#x2687;
+- `circle-dot-double`: &#x2689;
+- `atom`: &#x269B;
+- `warning`: &#x26A0;
+- `baseball`: &#x26BE;
+- `ornament-quote-down`: &#x275D;
+- `ornament-quote-up`: &#x275E;
+- `search`: &#x05A0;
+- `infinity`: &#x221E;
+- `infinity-vertical`: &#x0B03;
+- `circle`: &#x0CE6;
+- `dot-on-line`: &#x16BD;
+- `ellipsis`: &#x2026;
+- `ellipsis-vertical`: &#x205D;
+- `forbidden`: &#x20E0;
+- `trademark`: &#x2122;
+- `copyright`: &#x00A9;
+- `registered`: &#x00AE;
+- `info`: &#x2139;
+- `asterisk`: &#x2217;
+- `bacon`: &#x2248;
+- `hamburger`: &#x2261;
+- `quadruple-hamdurger`: &#x2263;
+- `crosshairs`: &#x22B9;
+- `star`: &#x2605;
+- `outline-star`: &#x2606;
+- `osx-cmd`: &#x2318;
+- `delete-right`: &#x2326;
+- `delete-left`: &#x232B;
+- `print`: &#x2399;
+- `eject`: &#x23CF;
+- `telephone`: &#x260E;
+- `outline-telephone`: &#x260F;
+- `scissors`: &#x2701;
+- `circle-telephone`: &#x2706;
+- `airplane`: &#x2708;
+- `mail`: &#x2709;
+- `heart`: &#x2764;
+- `circled-plus`: &#x2295;
+- `circled-minus`: &#x2296;
+- `circled-cross`: &#x2297;
+- `circled-slash`: &#x2298;
+- `circled-equals`: &#x229C;
+- `hand-left`: &#x261A;
+- `hand-right`: &#x261B;
+- `outline-hand-left`: &#x261C;
+- `outline-hand-right`: &#x261E;
+- `outline-hand-down`: &#x261F;
+- `writing-hand`: &#x270D;
+- `pen`: &#x270E;
+- `skull-bones`: &#x2620;
+- `radiation`: &#x2622;
+- `biohazard`: &#x2623;
+- `aesculapius-staff`: &#x2695;
+- `peace`: &#x262E;
+- `yin-yang`: &#x262F;
+- `sad-face`: &#x2639;
+- `outline-smiling-face`: &#x263A;
+- `smiling-face`: &#x263B;
