@@ -3,7 +3,8 @@
 *****************************************************/
 
 $icon-padding: .4em !default;
-$icon-display: inline;
+$icon-display: inline !default;
+$icon-font: 'Georgia', serif !default;
 
 /****************************************************
 *   Icon names and unicode identifiers.
@@ -15,36 +16,52 @@ $icon-display: inline;
 *   Mixin and classes definitions
 *****************************************************/
 
-@mixin icon($name, $position: after) {
-	$icon-char: "";
+@mixin unicon($name, $position: after) {
+	@if map-has-key($unicon-icons, $name) {
+		$icon-char: map-get($unicon-icons, $name);
 
-	@each $icon in $icons {
-		@if nth($icon, 1) == $name {
-			$icon-char: nth($icon, 2);
+		$padding-position: "left";
+
+		@if($position == before) {
+			$padding-position: "right";
+		}
+
+		&:#{$position} {
+			content: $icon-char;
+			display: $icon-display;
+			font-family: $icon-font;
+			padding-#{$padding-position}: $icon-padding;
+			@content;
 		}
 	}
-
-	$padding-position: "left";
-
-	@if($position == before) {
-		$padding-position: "right";
-	}
-
-	&:#{$position} {
-		content: $icon-char;
-		display: $icon-display;
-		padding-#{$padding-position}: $icon-padding;
-		@content;
+	@else {
+		@debug("Chosen icon not found.");
 	}
 }
 
-@each $icon in $icons {
+@each $icon in $unicon-icons {
 
-	.unicon-#{nth($icon, 1)} {
-		@include icon(nth($icon, 1));
+	.unicon-#{nth($icon, 1)},
+	[data-unicon-after="#{nth($icon, 1)}"] {
+		@include unicon(nth($icon, 1));
 	}
 
-	.unicon-#{nth($icon, 1)}-before {
-		@include icon(nth($icon, 1), before);
+	.unicon-#{nth($icon, 1)}-before, [data-unicon-before="#{nth($icon, 1)}"] {
+		@include unicon(nth($icon, 1), before);
 	}
+}
+
+/****************************************************
+*   Function
+*****************************************************/
+
+@function unicon-insert($name) {
+	@if map-has-key($unicon-icons, $name) {
+		@return map-get($unicon-icons, $name);
+	}
+	@else {
+		@debug("Chosen icon not found.");
+	}
+
+	@return "";
 }

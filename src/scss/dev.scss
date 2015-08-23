@@ -1,3 +1,7 @@
+$icon-padding: 0;
+$icon-display: block;
+@import 'unicon';
+
 .icons-list {
 	padding: 2em;
 }
@@ -9,8 +13,24 @@
 	padding: 1.5em 1.5em 3em 1.5em;
 
 	&:before {
-		display: block;
 		font-size: 2em;
 		margin-bottom: .5em;
+		height: 2em;
+		line-height: 2em;
+	}
+}
+
+$unicon-icons: map-merge($unicon-icons, (
+		'derp': '\01F3AF'
+));
+
+.icon-extended {
+	@include unicon('derp', before);
+}
+
+.icon-inserted {
+
+	&:before {
+		content: unicon-insert('mail');
 	}
 }

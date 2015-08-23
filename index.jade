@@ -6,9 +6,13 @@ html(lang='en')
         meta(name="viewport", content="width=device-width, initial-scale=1")
         title='Unicon'
         link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css')
-        link(rel='stylesheet', href='css/unicon.css')
         link(rel='stylesheet', href='css/dev.css')
     body
         section.icons-list
             each char, name in icons
                 span(class='unicon-' + name + '-before').icon!= name
+
+            span.icon.icon-extended Extended
+            span.icon.icon-inserted Inserted
+            span(data-unicon-after="circular-arrow-anticlockwise").icon.icon-data Inserted
+            span(data-unicon-before="circular-arrow-clockwise").icon.icon-data-before Inserted
