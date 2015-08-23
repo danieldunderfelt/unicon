@@ -1,0 +1,36 @@
+{
+  "name": "unicon",
+  "version": "0.1.0",
+  "authors": [
+    "Daniel Dunderfelt <dunderfeltdaniel@gmail.com>"
+  ],
+  "description": "A CSS library for applying Unicode icons easily.",
+  "main": [
+    "src/scss/unicon.scss",
+    "css/unicon.css"
+  ],
+  "keywords": [
+    "unicon",
+    "unicode",
+    "icon",
+    "icons",
+    "design",
+    "glyph",
+    "characters",
+    "sass",
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/danieldunderfelt/unicon",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danieldunderfelt/unicon.git"
+  },
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "src/scss/dev.scss",
+    "css/dev.css",
+    "css/dev.css.map"
+  ]
+}

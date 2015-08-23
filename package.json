@@ -1,11 +1,8 @@
 {
   "name": "unicon",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A CSS library for applying Unicode icons easily.",
-  "main": "./css/unicon.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/scss/unicon.scss",
   "keywords": [
     "css",
     "unicode",
@@ -15,8 +12,12 @@
     "sass",
     "mixin"
   ],
-  "author": "Daniel Dunderfelt",
+  "author": "Daniel Dunderfelt <dunderfeltdaniel@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danieldunderfelt/unicon.git"
+  },
   "devDependencies": {
     "browser-sync": "^2.8.2",
     "gulp": "^3.9.0",
