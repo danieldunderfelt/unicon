@@ -28,7 +28,7 @@ npm install unicon
 You can use Unicon with a mixin, normal CSS classes or attributes.
 
 ### Mixin
-To use the mixin, `@import` the `unicon.scss` file into your project. The `unicon` mixin will then be available snd can be used like so:
+To use the mixin, `@import` the `unicon.scss` file into your project. The `unicon` mixin will then be available and can be used like so:
 
 ```
 @include unicon(arrow-forward, after) {
@@ -75,7 +75,7 @@ Remember to assign the result of the `map-merge` call to the `$unicon-icons` var
 
 ```
 $unicon-icons: map-merge($unicon-icons, (
-    'small-arrow-left': &#x02FF;
+    'small-arrow-left': \0002FF;
 ));
 ```
 
@@ -83,7 +83,7 @@ Please keep in mind that if you use a name that already exists, the existing ico
 
 ## Contributing
 
-Pull requests welcome! In lieu of a formal style guide, please try to mimic the existing code style as close as possible.
+Pull requests welcome! In lieu of a formal style guide, please try to mimic the existing code style as closely as possible.
 
 If you want to add an icon, please follow the naming guidelines:
 `[style]-[style-modifier]-[object-type]-[direction]`
