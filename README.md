@@ -28,9 +28,7 @@ npm install unicon
 You can use Unicon with a mixin, normal CSS classes or attributes.
 
 ### Mixin
-The mixin is the primary way to use this library. Please only use the `unicon.css` file if your project is not using Sass. A port for Less and other CSS preprocessors is forthcoming.
-
-Also, there's a variable called `$ 
+The mixin is the primary way to use this library. Please only use the `unicon.css` file if your project is not using Sass.
 
 To use the mixin, `@import` the `unicon.scss` file into your project. The `unicon` mixin will then be available and can be used like so:
 
